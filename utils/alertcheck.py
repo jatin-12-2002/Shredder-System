@@ -34,7 +34,7 @@ def drawboxtosafeline(image_np,p1,p2,Line_Position2,Orientation):
              posii=int(image_np.shape[1]/2)        
              cv2.putText(image_np, "ALERT", (posii, 50),cv2.FONT_HERSHEY_SIMPLEX, 0.75, (255, 0,0), 2)
 			 #sound = os.path.join()
-             playsound(r"D:\Pycharm_Projects\shreddersystem\utils\alert.wav")
+             playsound("utils/alert.wav")
              cv2.rectangle(image_np, (posii-20,20), (posii+85,60), (255,0,0), thickness=3, lineType=8, shift=0)
              #to write into xl-sheet            
              return 1
