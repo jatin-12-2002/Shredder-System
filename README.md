@@ -10,26 +10,27 @@
 
 ## Requirement Gathering
 
-### Data -> Imgaes -> Palm ->Hand
-### Camera -> Web Camera
+* Data -> Imgaes -> Palm ->Hand
+* Camera -> Web Camera
 
 ## Data -> User oriented
-### Capture video in the factory
-### Video -> Frames -> Images
-### Annotation -> 1.x1, xml
-### Model Training -> YOLO, Detectron2, TFOD
+
+* Capture video in the factory
+* Video -> Frames -> Images
+* Annotation -> 1.x1, xml
+* Model Training -> YOLO, Detectron2, TFOD
 
 ## Important Points
 
-### Safety Line -> Warning
-### Border Line -> Shutdown the Machine
+* Safety Line -> Warning
+* Border Line -> Shutdown the Machine
 
 ## TechStack Selection
 
-### Programming Language -> Python 3.6
-### DL FrameWork -> TensorFlow Object Detection -> 1.14
-### Image Processing -> OpenCV, imutils
-### Sound -> PlaySound
+* Programming Language -> Python 3.6
+* DL FrameWork -> TensorFlow Object Detection -> 1.14
+* Image Processing -> OpenCV, imutils
+* Sound -> PlaySound
 
 ## Architechture
 
